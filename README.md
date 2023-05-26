@@ -1,12 +1,12 @@
 # algorithme_genetique
 <h1>Table of content</h1>
 <ul>
-  <li><a href="introduction">Introduction</a></li>
-   <li><a href="structure">Structure</a></li>
-   <li><a href="main">Main Container</a></li>
-   <li><a href="simple">Simple Container</a></li>
-   <li><a href="jade">Jade Interface</a> </li>
-  <li><a href="demo">Demonstration</a></li>
+  <li><a href="#introduction">Introduction</a></li>
+   <li><a href="#structure">Structure</a></li>
+   <li><a href="#main">Main Container</a></li>
+   <li><a href="#simple">Simple Container</a></li>
+   <li><a href="#jade">Jade Interface</a> </li>
+  <li><a href="#demo">Demonstration</a></li>
 </ul>
 <h1 id = "introduction">Introduction</h1>
 <p>Genetic algorithms and multi-agent systems are two powerful techniques in the field of artificial intelligence that have been widely applied to solve complex optimization problems. Individually, genetic algorithms are a search and optimization method inspired by the principles of natural evolution, while multi-agent systems involve the interaction of multiple autonomous agents to achieve a common goal. When combined, genetic algorithms and multi-agent systems offer a synergistic approach to problem-solving, leveraging the benefits of both techniques.</p>
