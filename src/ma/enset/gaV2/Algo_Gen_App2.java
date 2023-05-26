@@ -42,7 +42,7 @@ public class Algo_Gen_App2{
         Population2 population2 = new Population2();
         population2.initializePopulation();
         population2.calculateFitness();
-        sortByFitness(population2.individuals);
+        //sortByFitness(population2.individuals);
         System.out.println("chromosome : "+ Arrays.toString(population2.getBestFitnessIndividual().getGenes())+ " fitness : "+population2.getBestFitnessIndividual().getFitness());
         int it = 0;
         while (it < MAX_ITERATION && population2.getBestFitnessIndividual().getFitness() < MAX_FITNESS){
@@ -53,7 +53,7 @@ public class Algo_Gen_App2{
                 population2.mutation();
             }
             population2.calculateFitness();
-            sortByFitness(population2.individuals);
+           // sortByFitness(population2.individuals);
             System.out.println("chromosome : "+ Arrays.toString(population2.getBestFitnessIndividual().getGenes())+ " fitness : "+population2.getBestFitnessIndividual().getFitness());
             it++;
         }

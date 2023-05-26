@@ -23,8 +23,6 @@ public class Individual2 {
                 }
             }
     }
-
-
     public char[] getGenes() {
         return genes;
     }
